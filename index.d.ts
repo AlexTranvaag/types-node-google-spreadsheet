@@ -909,6 +909,19 @@ export class GoogleSpreadsheetWorksheet implements WorksheetBasicProperties {
 
     /**
      * @description
+     * auto resize worksheet "dimension properties"
+     *
+     * @param columnsOrRows which dimension to resize
+     *
+     * @param bounds start index and end index of the dimension to be resized
+     */
+    insertDimension(
+        columnsOrRows: WorksheetDimension,
+        bounds: WorksheetDimensionBounds
+    ): Promise<void>;
+
+    /**
+     * @description
      * defaults to clearing the entire sheet, or pass in a specific a1 range
      *
      * @param a1Range optional specific range within the sheet to clear
