@@ -1,0 +1,19 @@
+{
+  "name": "@alexvimbly/types-google-spreadsheet",
+  "version": "3.3.1",
+  "description": "Types for Google Spreadsheets API (v4) wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTranvaag/types-node-google-spreadsheet.git"
+  },
+  "author": "Alexander Tranvaag <alextranvaag@gmail.com> (https://alextranvaag.com)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/AlexTranvaag/types-node-google-spreadsheet/issues"
+  },
+  "homepage": "https://github.com/AlexTranvaag/types-node-google-spreadsheet#readme"
+}
