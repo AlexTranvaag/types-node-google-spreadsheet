@@ -915,7 +915,7 @@ export class GoogleSpreadsheetWorksheet implements WorksheetBasicProperties {
      *
      * @param bounds start index and end index of the dimension to be resized
      */
-    insertDimension(
+    autoResizeDimensions(
         columnsOrRows: WorksheetDimension,
         bounds: WorksheetDimensionBounds
     ): Promise<void>;
